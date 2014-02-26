@@ -3,7 +3,7 @@ body{
 	background-color: rgb(39,86,146);
 }
 
-h1{
+.starter-template{
 	text-align: center;
 	font-family: Verdana;
     
@@ -40,4 +40,8 @@ p{
 /* Styling for when a navigation bar item is hovered over */
 .navbar .nav > li > a:hover{
     background-color: black;
+}
+
+.navbar-toggle{
+    background-color: rgb(39,86,146);
 }
