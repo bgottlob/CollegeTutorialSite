@@ -45,3 +45,8 @@ p{
 .navbar-toggle{
     background-color: rgb(39,86,146);
 }
+
+/* Corresponds to the TCNJ logo in the nav bar */
+#tcnjHeader{
+    padding-right:20px;
+}
