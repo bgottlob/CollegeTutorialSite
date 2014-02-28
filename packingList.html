@@ -12,7 +12,21 @@
 
         <!-- A custom CSS file that can be used to override the default boostrap styling -->
         <link href="css/customstyle.css" rel="stylesheet">
-
+        
+        <script type="text/javascript">
+            function unhide(divID) {
+                console.log("started");
+                var item = document.getElementById(divID);
+                console.log(item);
+                if (item) {
+                    if (item.classList.contains("hidden"))
+                        item.classList.remove("hidden");
+                    else
+                        item.classList.add("hidden");
+                }
+            }
+        </script>
+        
     </head>
     <body>
         <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -68,7 +82,8 @@
                 
                 <h3 id="laundry">Laundry</h3>
                 <form>
-                    <input type="checkbox">Detergent<br>
+                    <input type="checkbox"><a href="javascript:unhide('detergentTip')">Detergent</a><br>
+                    <div class="alert alert-info hidden" id="detergentTip">Tip: Get Tide pods instead of liquid detergent for a more convenient (and fun) way to do laundry!</div>
                     <input type="checkbox">Dryer Sheets<br>
                     <input type="checkbox">Laundry Basket<br>
                 </form>
