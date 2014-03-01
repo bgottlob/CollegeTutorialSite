@@ -69,7 +69,14 @@
                 <h1>Packing List</h1>
                 <h3 id="schoolSupplies">School Supplies</h3>
                 <form>
-                    <input type="checkbox">Binders/Spiral Notebooks<br>
+                    
+                    <input type="checkbox"><a href="javascript:unhide('textbookTip')">Textbooks</a><br>
+                    <div class="alert alert-info hidden" id="textbookTip">Tip: To minimize textbook costs, rent from sites like Chegg or buy used if you want to keep them. Also, think about using e-books to decrease costs and the weight of your backpack.</div>
+                    
+                    <input type="checkbox"><a href="javascript:unhide('binderTip')">Binders/Spiral Notebooks</a><br>
+                    <div class="alert alert-info hidden" id="binderTip">Tip: Try going digital! Many professors post their slides online and you can use apps like Evernote to take notes in class and stay organized. However, in some classes you may be better off the old-fashioned way.</div>
+                    
+                    <input type="checkbox">Folders<br>
                     <input type="checkbox">Loose Leaf Paper<br>
                     <input type="checkbox">Pencils<br>
                     <input type="checkbox">Pens<br>
@@ -82,16 +89,23 @@
                 
                 <h3 id="laundry">Laundry</h3>
                 <form>
+                    
                     <input type="checkbox"><a href="javascript:unhide('detergentTip')">Detergent</a><br>
                     <div class="alert alert-info hidden" id="detergentTip">Tip: Get Tide pods instead of liquid detergent for a more convenient (and fun) way to do laundry!</div>
+
                     <input type="checkbox">Dryer Sheets<br>
                     <input type="checkbox">Laundry Basket<br>
                 </form>
                 
                 <h3 id="cleaning">Cleaning</h3>
                 <form>
-                    <input type="checkbox">Vacuum<br>
-                    <input type="checkbox">Magic Eraser/ Cleaning Wipes<br>
+                    
+                    <input type="checkbox"><a href="javascript:unhide('vacuumTip')">Vacuum</a><br>
+                    <div class="alert alert-info hidden" id="vacuumTip">Tip: Invest in a dust buster to store easily and clean the hard to reach areas in your dorm room.</div>
+                    
+                    <input type="checkbox"><a href="javascript:unhide('wipeTip')">Magic Eraser/Cleaning Wipes</a><br>
+                    <div class="alert alert-info hidden" id="wipeTip">Tip: Get a microfiber cloth! They’re great for cleaning screens and getting dust off of pretty much anything.</div>
+                    
                     <input type="checkbox">Paper Towels<br>
                     <input type="checkbox">Windex<br>
                 </form>
@@ -99,10 +113,13 @@
                 <h3 id="shower">Shower</h3>
                 <form>
                     <input type="checkbox">Shower Caddy<br>
-                    <input type="checkbox">Shower Shoes (Cheap Flip Flops)<br>
-                    <input type="checkbox">Towels/ Washcloths<br>
-                    <input type="checkbox">Shampoo/ Conditioner<br>
-                    <input type="checkbox">Soap<br>
+                    
+                    <input type="checkbox"><a href="javascript:unhide('flipflopTip')">Flip Flops</a><br>
+                    <div class="alert alert-info hidden" id="flipflopTip">Tip: Buy the cheapest pair you can find to wear inside the shower so you don’t mind throwing them out at the end of the year (or earlier).</div>
+                    
+                    <input type="checkbox">Towels/Washcloths<br>
+                    <input type="checkbox">Shampoo/Conditioner<br>
+                    <input type="checkbox">Soap/Body Wash<br>
                 </form>
                 
                 <h3 id="toiletries">Toiletries</h3>
@@ -111,7 +128,7 @@
                     <input type="checkbox">First Aid Kit<br>
                     <input type="checkbox">Toothbrush<br>
                     <input type="checkbox">Toothpaste<br>
-                    <input type="checkbox">MouthWash<br>
+                    <input type="checkbox">Mouth Wash<br>
                     <input type="checkbox">Floss<br>
                     <input type="checkbox">Medication<br>
                 </form>
@@ -126,12 +143,12 @@
                 
                 <h3 id="appliances">Electronics/Appliances</h3>
                 <form>
+                    <input type="checkbox">Laptop<br>
                     <input type="checkbox">TV<br>
                     <input type="checkbox">Fridge<br>
-                    <input type="checkbox">Laptop<br>
                     <input type="checkbox">Microwave<br>
                     <input type="checkbox">Movies<br>
-                    <input type="checkbox">Videogames<br>
+                    <input type="checkbox">Video Games<br>
                     <input type="checkbox">Alarm Clock<br>
                 </form>
                 
@@ -139,8 +156,11 @@
                 <form>
                     <input type="checkbox">Umbrella<br>
                     <input type="checkbox">Rain Jackets<br>
-                    <input type="checkbox">Boots/ Rain Boots<br>
-                    <input type="checkbox">Winter Coat (Seasonal)<br>
+                    
+                    <input type="checkbox"><a href="javascript:unhide('bootTip')">Boots/Rain Boots</a><br>
+                    <div class="alert alert-info hidden" id="bootTip">Tip: TCNJ’s campus can get some pretty big puddles. You don’t want to sit through class with uncomfortably wet socks!</div>
+                    
+                    <input type="checkbox">Winter Coat<br>
                     <input type="checkbox">Exercise Clothing<br>
                     <input type="checkbox">Pajamas<br>
                 </form>
@@ -148,7 +168,10 @@
                 <h3 id="misc">Miscellaneous</h3>
                 <form>
                     <input type="checkbox">Sports Equipment (Frisbee, Football, etc.)<br>
-                    <input type="checkbox">Posters and Decorations<br>
+                    
+                    <input type="checkbox"><a href="javascript:unhide('posterTip')">Posters and Decorations</a><br>
+                    <div class="alert alert-info hidden" id="posterTip">Tip: No posters? No problem! TCNJ has a poster sale a couple of weeks into each semester.</div>
+                    
                 </form>
                 
                 <h3 id="girls">Girls' Section</h3>
