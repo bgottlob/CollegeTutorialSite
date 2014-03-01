@@ -50,3 +50,20 @@ p{
 #tcnjHeader{
     padding-right:20px;
 }
+
+.tipItem{
+    color: rgb(255,242,0);
+    text-decoration: underline;
+}
+
+.tipItem:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.tcnjImg{
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
