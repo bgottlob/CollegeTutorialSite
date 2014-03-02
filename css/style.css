@@ -1,0 +1,93 @@
+h1 {
+    font-size: 50px;
+    color: rgb(32, 47, 93);
+}
+/* Navigation Bar */
+ .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    font-weight:bold;
+    background-color: rgb(32, 47, 93);
+}
+/* Overrides the styling of the default bootstrap navbar class */
+ .navbar {
+    background-color: rgb(32, 47, 93);
+}
+/* Styles the text of the leftmost element of the navigation bar (which is of class navbar-brand) */
+ .navbar .navbar-brand {
+    color: rgb(32, 47, 93);
+}
+/* Styling for when the leftmost element of the navigation bar is hovered over */
+ .navbar .navbar-brand:hover {
+    background-color: rgb(24, 150, 233);
+}
+/* Styles each item in the navigation bar that is not active (not including the leftmost element) */
+ .navbar .nav > li > a {
+    color: white;
+}
+/* Styling for when a navigation bar item is hovered over */
+ .navbar .nav > li > a:hover {
+    background-color: rgb(25, 129, 229);
+}
+.navbar-toggle {
+    background-color: rgb(39, 86, 146);
+}
+/** Buttons*/
+ .btn-primary.front {
+    color: #fff;
+    background-color: rgb(19, 149, 233);
+    border-color: rgb(19, 149, 233);
+}
+ .btn-primary.res {
+    color: #fff;
+    background-color: rgb(32, 47, 93);
+    border-color: rgb(32, 47, 93);
+}
+/* Jumbotron Front Page */
+ .jumbotron.front {
+    background-color:transparent;
+}
+.jumbotron.front h1 {
+    color: rgb(32, 47, 93);
+}
+.jumbotron.front p1 {
+    font-size: 18px;
+    color: rgb(19, 149, 233);
+}
+.jumbotron.residence p {
+    font-size: 15px;
+}
+.jumbotron.residence h1 {
+    font-size: 30px;
+}
+/* Jumbotrons Residence Page */
+ .jumbotron.residence.blue {
+    background-color: rgb(32, 47, 93);
+}
+.jumbotron.residence.white {
+    background-color:transparent;
+}
+.jumbotron.residence.blue h1 {
+    color: white;
+}
+.jumbotron.residence.white h1 {
+    color: rgb(32, 47, 93);
+}
+.jumbotron.residence.blue p {
+    color: white;
+}
+.jumbotron.residence.white p {
+    color: rgb(32, 47, 93);
+}
+.panel-primary {
+    border-color: rgb(32, 47, 93);
+}
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: rgb(32, 47, 93);
+    border-color: rgb(32, 47, 93);
+}
+.panel-primary > .panel-heading + .panel-collapse .panel-body {
+    border-top-color: rgb(32, 47, 93);
+}
+.panel-primary > .panel-footer + .panel-collapse .panel-body {
+    border-bottom-color: rgb(32, 47, 93);
+}

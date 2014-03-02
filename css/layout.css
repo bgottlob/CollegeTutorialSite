@@ -1,0 +1,58 @@
+@import url('../bootstrap-3.1.1-dist/css/bootstrap.min.css');
+ body {
+    padding-top: 50px;
+    background-image: url(../images/bg_image.png);
+    background-repeat: repeat;
+}
+p {
+    font-family: Verdana;
+    color: white;
+}
+img {
+    width:auto;
+    max-width:100%;
+    height:auto;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+}
+.btn-primary.res {
+    margin: 80px auto;
+}
+.navbar-fixed-top {
+    position: absolute;
+}
+/** Image circles */
+ .img-circle {
+    -webkit-border-radius: 140px;
+    -moz-border-radius: 140px;
+    border-radius: 140px;
+    width: 85%;
+    margin: 2% auto;
+}
+@media (max-width:768px) {
+    .img-circle center img {
+        width:30%!important;
+    }
+}
+/* Jumbotron */
+ .jumbotron.front p1 {
+    position:relative;
+    top:-30px;
+}
+.jumbotron.residence {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.row.special {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+/* Corresponds to the TCNJ logo in the nav bar */
+ #tcnjHeader {
+    padding-right:20px;
+}

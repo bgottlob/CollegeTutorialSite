@@ -1,141 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>TCNJ Packing List</title>
 
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/starter-template.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-    <!-- A custom CSS file that can be used to override the default boostrap styling -->
-    <link href="css/customstyle.css" rel="stylesheet">
+</head>
 
-  </head>
-  <body>
+<body>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <img src="pics/TCNJ.png" id="tcnjHeader"></img>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="residenceHalls.html">Residence Halls</a></li>
-            <li class="dropdown active">
-                <a href="packingList.html" class="dropdown-toggle" data-toggle="dropdown">Packing List <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">School Supplies</a></li>
-                    <li><a href="#">Laundry</a></li>
-                    <li><a href="#">Cleaning</a></li>
-                    <li><a href="#">Shower</a></li>
-                    <li><a href="#">Toiletries</a></li>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a href="index.html">
+                    <img src="images/tcnj-logo.png" id="tcnjHeader" />
+                </a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="residenceHalls.html">Residence Halls</a>
+                    </li>
+                    <li><a href="packingList.html">Packing List</a>
+                    </li>
                 </ul>
-          </li>
-          </ul>
+            </div>
         </div>
-      </div>
+    </div>
+    <div class="page-header">
+        <center>
+            <h1>Packing List</h1>
+        </center>
+
+    </div>
+    <div class="row special">
+        <div class="col-sm-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">School Supplies</h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <input type="checkbox">Folders
+                        <br>
+                        <input type="checkbox">Loose Leaf Paper
+                        <br>
+                        <input type="checkbox">Pencils
+                        <br>
+                        <input type="checkbox">Pens
+                        <br>
+                        <input type="checkbox">Colored Pencils
+                        <br>
+                        <input type="checkbox">Markers
+                        <br>
+                        <input type="checkbox">Post-it Notes
+                        <br>
+                        <input type="checkbox">Highlighters
+                        <br>
+                        <input type="checkbox">Glue
+                        <br>
+                    </form>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Laundry</h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <input type="checkbox">Detergent
+                        <br>
+                        <input type="checkbox">Dryer Sheets
+                        <br>
+                        <input type="checkbox">Laundry Basket
+                        <br>
+                    </form>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Cleaning</h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <input type="checkbox">Paper Towels
+                        <br>
+                        <input type="checkbox">Windex
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Toiletries</h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <input type="checkbox">Razor
+                        <br>
+                        <input type="checkbox">First Aid Kit
+                        <br>
+                        <input type="checkbox">Toothbrush
+                        <br>
+                        <input type="checkbox">Toothpaste
+                        <br>
+                        <input type="checkbox">Mouth Wash
+                        <br>
+                        <input type="checkbox">Floss
+                        <br>
+                        <input type="checkbox">Medication
+                        <br>
+                        <input type="checkbox">Shower Caddy
+                        <br>
+                        <input type="checkbox">Flip Flops</a>
+                        <br>
+                        <input type="checkbox">Towels/Washcloths
+                        <br>
+                        <input type="checkbox">Shampoo/Conditioner
+                        <br>
+                        <input type="checkbox">Soap/Body Wash
+                        <br>
+                    </form>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Bed Supplies</h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <input type="checkbox">Sheets
+                        <br>
+                        <input type="checkbox">Blankets
+                        <br>
+                        <input type="checkbox">Pillows
+                        <br>
+                        <input type="checkbox">Pillow Cases
+                        <br>
+                    </form>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Appliances</h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <input type="checkbox">Laptop
+                        <br>
+                        <input type="checkbox">TV
+                        <br>
+                        <input type="checkbox">Fridge
+                        <br>
+                        <input type="checkbox">Microwave
+                        <br>
+                        <input type="checkbox">Movies
+                        <br>
+                        <input type="checkbox">Video Games
+                        <br>
+                        <input type="checkbox">Alarm Clock
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Clothing</h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <input type="checkbox">Umbrella
+                        <br>
+                        <input type="checkbox">Rain Jackets
+                        <br>
+                        <input type="checkbox">Boots/Rain Boots</a>
+                        <br>
+                        <input type="checkbox">Winter Coat
+                        <br>
+                        <input type="checkbox">Exercise Clothing
+                        <br>
+                        <input type="checkbox">Pajamas
+                        <br>
+                    </form>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Miscellaneous</h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <input type="checkbox">Sports Equipment (Frisbee, Football, etc.)
+                        <br>
+                        <input type="checkbox">Posters and Decorations</a>
+                        <br>
+                    </form>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Girl's Section</h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <input type="checkbox">Perfume
+                        <br>
+                        <input type="checkbox">Hair Ties
+                        <br>
+                        <input type="checkbox">Straightener/Curling Iron
+                        <br>
+                        <input type="checkbox">Lotion
+                        <br>
+                        <input type="checkbox">Blow Dryer
+                        <br>
+                        <input type="checkbox">Headbands
+                        <br>
+                        <input type="checkbox">Bobby Pins
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="container">
-      <div class="starter-template">
-        <h1>Packing List</h1>
-          <h3>School Supplies</h3>
-          <ul>
-              <li>Binders/Spiral Notebooks</li>
-              <li>Loose leaf paper</li>
-              <li>Pencils</li>
-              <li>Pens</li>
-              <li>Colored Pencils</li>
-              <li>Markers</li>
-              <li>Post-it Notes</li>
-              <li>Highlighters</li>
-              <li>Glue</li>
-          </ul>
-        <h3>Laundry</h3>
-          <ul>
-              <li>Detergent</li>
-              <li>Dryer Sheets</li>
-              <li>Laundry Basket</li>
-          </ul>
-        <h3>Cleaning</h3>
-          <ul>
-              <li>Vacuum</li>
-              <li>Magic Eraser/ Cleaning Wipes</li>
-              <li>Paper Towels</li>
-              <li>Windex</li>
-          </ul>
-        <h3>Shower</h3>
-          <ul>
-              <li>Shower Caddy</li>
-              <li>Shower Shoes (Cheap Flip Flops)</li>
-              <li>Towels/ Washcloths</li>
-              <li>Shampoo/ Conditioner</li>
-              <li>Soap</li>
-          </ul>
-        <h3>Toiletries</h3>
-          <ul>
-              <li>Razor</li>
-              <li>First Aid Kit</li>
-              <li>Toothbrush</li>
-              <li>Toothpaste</li>
-              <li>MouthWash</li>
-              <li>Floss</li>
-              <li>Medication</li>
-          </ul>
-        <h3>Bed Supplies</h3>
-          <ul>
-              <li>Sheets</li>
-              <li>Blankets</li>
-              <li>Pillows</li>
-              <li>Pillow Cases</li>
-          </ul>
-        <h3>Electronics/ Appliances</h3>
-          <ul>
-              <li>TV</li>
-              <li>Fridge</li>
-              <li>Laptop</li>
-              <li>Microwave</li>
-              <li>Movies</li>
-              <li>Videogames</li>
-              <li>Alarm Clock</li>
-          </ul>
-        <h3>Miscellaneous</h3>
-          <ul>
-              <li>Sports Equipment (Frisbee, Football, etc.)</li>
-              <li>Posters and Decorations</li>
-          </ul>
-        <h3>Clothing/ Apparel</h3>
-          <ul>
-              <li>Umbrella</li>
-              <li>Rain Jackets</li>
-              <li>Boots/ Rain Boots</li>
-              <li>Winter Coat (Seasonal)</li>
-              <li>Exercise Clothing</li>
-              <li>Pajamas</li>
-          </ul>
-        <h3>Girls' Section</h3>
-          <ul>
-              <li>Perfume</li>
-              <li>Hair Ties</li>
-              <li>Straightener/ Curling Iron</li>
-              <li>Lotion</li>
-              <li>Blow Dryer</li>
-              <li>Headbands</li>
-              <li>Bobby Pins</li>
-          </ul>
-      </div>
-    </div>
-    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
+    <script src="bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
