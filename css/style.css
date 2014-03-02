@@ -91,3 +91,7 @@ h1 {
 .panel-primary > .panel-footer + .panel-collapse .panel-body {
     border-bottom-color: rgb(32, 47, 93);
 }
+
+.tipItem{
+    text-decoration: underline;
+}
